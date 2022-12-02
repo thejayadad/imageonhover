@@ -8,9 +8,13 @@ body{
 
 img{
     width: 400px;
+    border-radius: 6px;
+    box-shadow: 5px 6px 6px 5px rgb(214, 192, 214);
+    transition: 400ms;
 }
 
 img:hover{
     -webkit-filter: blur(5px);
     filter: blur(5px);
+    transform: scale(1.02);
 }
